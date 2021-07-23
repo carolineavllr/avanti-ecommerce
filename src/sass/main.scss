@@ -1,0 +1,39 @@
+@import './reset.scss';
+@import './variables.scss';
+
+@import './header.scss';
+@import './banner.scss';
+@import './products.scss';
+@import './footer.scss';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  @media (max-width: 900px){
+    padding: 0 20px;
+  }
+}
+
+.swiper-wrapper {
+  height: fit-content;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 14px;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: -10px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: -10px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: $gray;
+}
