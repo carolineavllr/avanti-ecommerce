@@ -19,4 +19,4 @@
  - Webpack
  - Lodash template engine
 
-![Screenshot](chrome-capture.git)
+![Screenshot](chrome-capture.gif)
